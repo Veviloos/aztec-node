@@ -134,6 +134,10 @@ ufw allow 8080
 ```
 
 ## 9. Sequencer Node
+* Open a screen
+```bash
+screen -S aztec
+```
 * Run Node
 ```
 aztec start --node --archiver --sequencer \
