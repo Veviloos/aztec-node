@@ -77,7 +77,7 @@ Add the following line at the end if NOT exists
 ```bash
 export PATH="$PATH:/root/.aztec/bin"
 ```
-CTRL X, Y and enter to save the changes.
+CTRL X, Y and ENTER to save the changes.
 ```bash
 source /root/.bash_profile
 ```
