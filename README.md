@@ -69,7 +69,21 @@ bash -i <(curl -s https://install.aztec.network)
 ```bash
 aztec
 ```
-
+If command not found:
+```bash
+nano /root/.bash_profile
+```
+Add the following an the end if NOT exists
+```bash
+export PATH="$PATH:/root/.aztec/bin"
+```
+```bash
+source /root/.bash_profile
+```
+Run again:
+```bash
+aztec
+```
 ## 3. Update Aztec
 ```bash
 aztec-up alpha-testnet
