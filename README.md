@@ -91,7 +91,7 @@ aztec-up alpha-testnet
 
 ## 4. Obtain RPC URLs
 * Find a 3rd party that supports Sepolia `RPC URL` & Sepolia `BEACON URL` APIs.
-* Most of your usage is `RPC URL`. I recommend to use [Alchemy](https://dashboard.alchemy.com/) for `RPC URL` & Use [drpc](https://drpc.org/) for `Beacon URL`
+* Most of your usage is `RPC URL`. I recommend to use [Alchemy](https://dashboard.alchemy.com/) for `RPC URL` & Use [chainstack](https://console.chainstack.com/) for `Beacon URL`
 * More details on Free & Paid 3rd party solutions:
 
 ### Free:
