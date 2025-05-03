@@ -91,7 +91,7 @@ aztec-up alpha-testnet
 ```
 
 ## 4. Obtain RPC URLs
-* Most of your usage is `RPC URL`. I recommend to use [Alchemy](https://dashboard.alchemy.com/) for `RPC URL` & Use [chainstack](https://console.chainstack.com/) for `Beacon URL`
+* Most of your usage is `RPC URL`. I recommend to use [Alchemy](https://dashboard.alchemy.com/) for `RPC URL` & [chainstack](https://console.chainstack.com/) for `Beacon URL`
 
 ## 5. Generate Ethereum Keys
 Get an EVM Wallet with `Private Key` and `Public Address` saved.
