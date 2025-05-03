@@ -33,7 +33,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
 ```
 
-* Install Docker if not installed:
+* Install Docker if not installed. Run the commands one by one!
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
@@ -57,7 +57,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 
 sudo systemctl enable docker
-sudo systemctl restart docker
+```sudo systemctl restart docker
 ```
 
 ## 2. Install Aztec Tools
