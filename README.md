@@ -73,7 +73,7 @@ If command not found:
 ```bash
 nano /root/.bash_profile
 ```
-Add the following an the end if NOT exists
+Add the following line at the end if NOT exists
 ```bash
 export PATH="$PATH:/root/.aztec/bin"
 ```
